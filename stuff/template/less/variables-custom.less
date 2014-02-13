@@ -1,0 +1,86 @@
+@brand-primary:  #e8b60f;
+@btn-default-bg:  gray;
+@yellow-dark:   #bd821a;
+
+
+//------------------color
+@blue-light: #e3eef9;
+@blue-dark: #284e6c;
+@gray:      #4a4a4a;
+@text-color:  @blue-dark;
+@text-color-basic: @gray;
+
+@component-active-color:      @yellow-dark;
+
+
+
+//--------------------navbar
+@navbar-inverse-link-color:           @text-color;
+@navbar-inverse-link-hover-color:     @component-active-color;
+@navbar-inverse-link-disabled-color:  @component-active-color;
+
+
+// Type
+// ------------------------
+@text-muted:                  @blue-dark;
+@headings-small-color:        @blue-dark;
+
+
+//------------------------fonts
+@font-family-sans-serif:  verdana, tahoma;
+@font-size-base:          13px;
+@font-size-base-max:      19px;
+
+@font-size-h1:            @font-size-base * 3.69; // ~48px
+@font-size-h2:            @font-size-base * 2.69; // ~35px
+@font-size-h3:            @font-size-base * 1.69; // ~22px
+@font-size-h4:            @font-size-base * 1.46; // ~19px
+@font-size-h5:            @font-size-base * 1.23; // ~16px
+
+
+// Carousel
+// ------------------------
+
+@carousel-control-width:                      15%;
+@carousel-control-opacity:                    .5;
+
+@carousel-indicator-active-bg:                @component-active-color;
+@carousel-caption-color:                      @text-color;
+
+
+
+// Buttons
+// -------------------------
+
+@btn-primary-color:              #fff;
+@btn-primary-bg:                 @brand-primary;
+@btn-primary-border:             darken(@btn-primary-bg, 5%);
+
+@btn-link-disabled-color:        @gray-light;
+
+@path: "http://dev.headway-studio.ru/fbc/";
+
+// Container sizes
+// --------------------------------------------------
+
+// Small screen / tablet
+@container-tablet:             ((720px + @grid-gutter-width));
+@container-sm:                 @container-tablet;
+
+// Medium screen / desktop
+@container-desktop:            ((940px + @grid-gutter-width));
+@container-md:                 @container-desktop;
+
+// Large screen / wide desktop
+@container-large-desktop:      ((990px + @grid-gutter-width));
+@container-lg:                 @container-large-desktop;
+
+
+
+// Tables
+// -------------------------
+
+@table-bg-accent:                    #e3eef9; // for striping
+@table-bg-hover:                     #dce9f5;
+
+@table-border-color:                 #dce9f5; // table and cell border
